@@ -1,27 +1,41 @@
 # solar-power-predictor
 AI-powered solar energy prediction system developed in Python to estimate electricity generation and optimize renewable energy usage.
-import math
+# Solar Power Predictor
 
-# Solar panel specifications
-panel_power = 550  # Watts
-number_of_panels = 20
-sun_hours = 7      # Average sunlight hours per day
-efficiency = 0.85  # System efficiency
+AI-powered solar energy prediction system developed in Python to estimate electricity generation and optimize renewable energy usage.
 
-# Daily production
-daily_energy = (
-    panel_power *
-    number_of_panels *
-    sun_hours *
-    efficiency
-) / 1000  # kWh
+## Features
 
-# Monthly and yearly production
-monthly_energy = daily_energy * 30
-yearly_energy = daily_energy * 365
+- Daily solar energy estimation
+- Monthly production forecast
+- Yearly production forecast
+- Simple and lightweight Python implementation
 
-print("Solar Energy Production")
-print("----------------------")
-print(f"Daily Production: {daily_energy:.2f} kWh")
-print(f"Monthly Production: {monthly_energy:.2f} kWh")
-print(f"Yearly Production: {yearly_energy:.2f} kWh")
+## Technologies
+
+- Python
+
+## How It Works
+
+The program calculates solar energy production based on:
+
+- Solar panel power (Watts)
+- Number of panels
+- Average sunlight hours per day
+- System efficiency
+
+## Example Output
+
+```text
+Solar Energy Production
+----------------------
+Daily Production: 65.45 kWh
+Monthly Production: 1963.50 kWh
+Yearly Production: 23889.25 kWh
+```
+
+## Author
+
+Riadh
+
+   
